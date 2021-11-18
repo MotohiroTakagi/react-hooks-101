@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 
 const App = props => {
+  const [state, setState] = useState(props)
   const [name, setName] = useState(props.name)
   const [price, setPrice] = useState(props.price)
 
